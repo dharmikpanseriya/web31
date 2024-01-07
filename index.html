@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De-trended Price Oscillator</title>
+    <style>
+
+      
+      body {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+          background-color: #060916;
+          color: white;
+          margin: 0;
+          padding: 20px;
+          line-height: 1.6;
+      }
+
+      .title-container {
+    background-image: url('https://i.pinimg.com/originals/bf/03/e7/bf03e792ca95a5d43050d5b1f31bfbe0.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(6, 9, 22, 0.6); /* Background color with 60% transparency */
+}
+
+      .title-container h1 {
+          color: #ffffff;
+          margin: 0;
+      }
+
+      .bottom-section {
+    background-image: url('https://i.pinimg.com/originals/bf/03/e7/bf03e792ca95a5d43050d5b1f31bfbe0.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(6, 9, 22, 0.6); /* Background color with 60% transparency */
+}
+
+
+      .bottom-image {
+          max-width: 100%;
+          height: auto;
+          border-radius: 15px;
+          margin-bottom: 10px;
+          position: relative;
+      }
+
+      .bottom-text {
+          position: absolute;
+          bottom: 10px;
+          left: 50%;
+          transform: translateX(-50%);
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: bottom;
+          margin-top: 10px; /* Adjusted top margin */
+      }
+  </style>
+</head>
+
+<body>
+
+    <div class="title-container">
+        <h1>De-trended Price Oscillator</h1>
+    </div>
+
+    <p>The De-trended Price Oscillator (DPO) is a momentum oscillator that eliminates the trend influence from an asset's price. By doing this, the DPO provides a clear view of the price oscillations around a zero baseline, aiming to identify cycles more effectively.</p>
+    <h3>What it is and what it shows</h3>
+    <p>The DPO is unique because it does not align with the latest prices. It is shifted back in time to center its charting display. The primary purpose of DPO is to highlight the underlying cycles in the price action of an asset.</p>
+    <p>The formula to calculate DPO is:</p>
+    <p>1.Determine the period you wish to study (commonly 20 periods).</p>
+    <p>2.Calculate the displaced moving average: Simple Moving Average of chosen periods but displaced back by (period/2 + 1) days.</p>
+    <p>3.DPO = Closing price - Displaced moving average.</p>
+    <p>A positive DPO indicates that the price is above the displaced moving average and vice versa. </p>
+    <h3>How to trade it</h3>
+    <h4>1.Zero Line Crossovers:</h4>
+    <p>= Buy when the DPO crosses above the zero line, indicating potential upward momentum.</p>
+    <p>= Sell when the DPO crosses below the zero line, indicating potential downward momentum.</p>
+    <p>Example: If an asset's DPO moves from -2 to 1, crossing the zero line, it can be taken as a bullish signal.</p>
+    <h4>2.Overbought and Oversold:</h4>
+    <p>= Though DPO doesn't have fixed overbought or oversold levels, traders can establish these based on historical levels where reversals occurred.</p>
+    <p>Example: If historically, an asset reverses after reaching a DPO of 5, a trader can use that as an overbought level.</p>
+    <h4>3.Divergences:</h4>
+    <p>= Bullish divergence: When the asset's price makes lower lows, but the DPO makes higher lows.</p>
+    <p>= Bearish divergence: When the asset's price makes higher highs, but the DPO makes lower highs.</p>
+    <p>Example: If an asset forms a new low, but the DPO forms a higher low, it suggests potential bullish momentum.</p>
+    <h4>4.Limitations Of The DPO</h4>
+    <p>Not Suited for Trend Identification: By design, the DPO removes trends, so it isn't effective for identifying long-term trends.</p>
+    <p>Lagging Indicator: DPO is based on past prices, so it may not react swiftly to recent price changes.</p>
+    <p>No Fixed Overbought/Oversold Levels: Unlike indicators like RSI, the DPO doesn't have standardized overbought/oversold levels, which can make interpretation subjective.</p>
+    <p>In Conclusion the De-trended Price Oscillator offers a unique perspective on price cycles by removing the overarching trend influence. While effective in highlighting short-term cycles, traders should use it in conjunction with other tools and indicators to validate its signals. Always consider the inherent limitations of any indicator and ensure risk management practices are in place.</p>
+     
+    
+    <div class="bottom-section">
+        <div class="bottom-images-container">
+            <img class="bottom-image" src="https://i.pinimg.com/originals/e9/3e/bd/e93ebda7e4604474acf4decb3c8e73e7.jpg" alt="Image 1">
+            
+        </div>
+    
+                        
+  </div>
+
+</body>
+
+</html>
